@@ -18,11 +18,18 @@
           </ul>
         </aside>
         <div id="pet-container">
-          <div>pet</div>
+          <div id="pet-image">pet</div>
           <div id="pet-options-container">
-            <button class="button">clean</button>
-            <button class="button">feed</button>
-            <button class="button">play</button>
+            <button class="button" id="clean">clean</button>
+            <button class="button" id="feed">feed</button>
+            <button class="button" id="play">play</button>
+          </div>
+        </div>
+
+        <div id="game-over-modal" style="display: none" data-action="close">
+          <div id="overlay">
+            <h1>Game over</h1>
+            <button id="reset-button">reset</button>
           </div>
         </div>
       </main>
