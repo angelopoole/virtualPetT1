@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', event => {
     petHunger.innerHTML = `<li> hunger : ${hunger}</li>`;
     petHealth.innerHTML = `<li> health : ${health}</li>`;
     petHappiness.innerHTML = `<li> happiness : ${happiness}</li>`;
-    virgilContainer.innerHTML = `<img src="./images/${mood}.png" />`;
+    virgilContainer.innerHTML = `<img src="./src/images/${mood}.png" />`;
   };
 
   // and event listeners
