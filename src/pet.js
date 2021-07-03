@@ -1,3 +1,0 @@
-const Person = () => {
-  this.firstName;
-};
